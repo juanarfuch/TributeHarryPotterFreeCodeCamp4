@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Yusei+Magic&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    background-color: #022f2c;
+    font-family: Yusei magic, sans-serif;
+    color: #fff;
+}
+
+/* EDITANDO SECCION MAIN */
+main{
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+/* EDITANDO EL HEADLINE */
+#title{
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+}
+#title h1 {
+    font-size: 2rem; /* Corregido valor de font-size */
+    color: antiquewhite;
+    font-family: Anton, sans-serif; /* Añadido tipo de fuente de respaldo */
+}
+
+
+/* EDITANDO EL CONTENEDOR DE LA IMAGEN*/
+#img-div{
+    height: 90%;
+    width: 90vw;
+    max-width: 1100px;
+    padding: 0.5rem;
+    margin: 0 0 2rem 0;
+    background-color:#438a7b ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+/* EDITANDO IMAGEN */
+#image{
+    width: 95%;
+    max-width: 1000px;
+    height: auto;
+    max-height:600px; 
+    margin: 0.5rem;
+    display: block;
+}
+
+figcaption{
+    text-align: center;
+    font-size: 15px;
+    margin: 0.5rem 0;
+}
+
+
+#tribute-info h3{
+    font-size: 25px;
+    font-family: Anton, sans-serif;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+#tribute-info ul{
+    margin: 0 auto;
+    max-width: 50vw;
+}
+
+#tribute-info li{
+    margin: 0 0 1rem 0;
+}
+b{
+    color: aquamarine;
+}
+
+
+.final-text{
+    font-size: 19px;
+
+    text-align: center;
+}
+#tribute-link{
+    list-style: none;
+    color: aquamarine;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem; /* Disminuido el tamaño de la fuente para pantallas pequeñas */
+    }
+}
+
+    
